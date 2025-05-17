@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Introduction to HTML</title>
+
+  <!-- Corrected CSS link -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Custom Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="header">
+    Welcome to HTML
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="social-media">
+        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+        <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+        <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <section class="hero">
+    <h2>Learn the Basics of HTML</h2>
+    <p>HTML is the standard markup language for creating web pages.</p>
+    <a href="learn.html" class="btn">Get Started</a>
+    <img src="html-logo.png" alt="HTML Logo" class="hero-image">
+  </section>
+
+  <section class="features">
+    <h2>Features of HTML</h2>
+    <ul>
+      <li>Easy to learn and use</li>
+      <li>Supports multimedia</li>
+      <li>Responsive design capabilities</li>
+      <li>Widely supported by browsers</li>
+    </ul>
+  </section>
+
+  <footer>
+    <section class="footer">
+      <h2>Contact Us</h2>
+      <p>If you have any questions, feel free to reach out!</p>
+      <form action="submit_form.php" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <input type="submit" value="Submit"><br>
+      </form>
+      <p>Email: <a href="mailto:hello@example.com">hello@example.com</a></p>
+      <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+    </section>
+
+    <p>&copy; 2025 HTML Learning Platform</p>
+  </footer>
+</body>
+</html>
